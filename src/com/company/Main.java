@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -16,7 +14,7 @@ public class Main {
 //        printDoubled (items);
     FootballPlayer joe = new FootballPlayer("Joe");
     BaseballPlayer pat = new BaseballPlayer("Pat");
-    SoccerPlayer beckham = new SoccerPlayer("Bechham");
+    SoccerPlayer beckham = new SoccerPlayer("Beckham");
 
     Team <FootballPlayer> adelaideCrows = new Team <>("Adelaide Crows");
     adelaideCrows.addPlayer(joe);
@@ -39,7 +37,7 @@ public class Main {
     melbourne.addPlayer(banks);
 
     Team <FootballPlayer> hawthorn = new Team<>("Hawthorn");
-    Team <FootballPlayer> fremantle = new Team<>("Freemantle");
+    Team <FootballPlayer> fremantle = new Team<>("Fremantle");
 
     hawthorn.matchResult(fremantle, 1, 0);
     hawthorn.matchResult(adelaideCrows, 3, 8);
